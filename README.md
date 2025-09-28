@@ -19,6 +19,9 @@ All you really have to do is:
     swaybg
     sway
     swaync
+    grim
+    slurp
+    flatpak
   3) replace the folders in your ~/.config folder with the folders/files in the repo
   4) do a quick
   ```

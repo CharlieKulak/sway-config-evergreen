@@ -9,3 +9,18 @@ Hey this is my evergreen sway rice!
 <img width="1920" height="1080" alt="screenshot-2025-09-27_19-56-47" src="https://github.com/user-attachments/assets/6a4ba833-f18c-470f-838c-c697ec8b23a6" />
 
 <img width="1920" height="1080" alt="screenshot-2025-09-27_19-57-16" src="https://github.com/user-attachments/assets/6e7baefa-a8ed-4c00-b37b-c2956057b39a" />
+
+# How to install
+All you really have to do is:
+  1) install the following programs:
+    alacritty
+    waybar
+    rofi
+    swaybg
+    sway
+  2) replace the folders in your ~/.config folder with the folders/files in the repo
+  3) do a quick
+  ```
+  chmod +x install.sh # inside your ~/.config folder
+  ```
+  

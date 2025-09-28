@@ -1,0 +1,115 @@
+@define-color bg    #1E2326; /*done*/ 
+@define-color fg    #859289; /*done*/
+@define-color blk   #0c0e0f; /*done*/
+@define-color red   #E67E80; /*done*/ 
+@define-color grn   #A7C080; /*done*/
+@define-color ylw   #DBBC7f; /*done*/
+@define-color blu   #384B55; /*done also, this is background blue FYI */
+@define-color mag   #D699B6; /*done*/
+@define-color cyn   #7FBBB3; /*done*/ 
+@define-color white #9DA9A0; /*done*/ 
+@define-color bkrnd-grn #3C4841;
+
+* {
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+window#waybar {
+    background-color: @bg;
+    color: @fg;
+}
+
+#workspaces button {
+    padding: 0 6px;
+    color: @cyn;
+    background: transparent;
+    border-bottom: 3px solid @bg;
+}
+#workspaces button.active {
+    color: @cyn;
+    border-bottom: 3px solid @bkrnd-grn;
+}
+#workspaces button.empty {
+    color: @white;
+}
+#workspaces button.empty.active {
+    color: @cyn;
+    border-bottom: 3px solid @mag;
+}
+
+#workspaces button.urgent {
+    background-color: @red;
+}
+
+button:hover {
+    background: inherit;
+    box-shadow: inset 0 -3px #ffffff;
+}
+
+#clock,
+#custom-sep,
+#battery,
+#cpu,
+#memory,
+#disk,
+#network,
+#custom-wall,
+#tray {
+    padding: 0 8px;
+    color: @white;
+}
+
+#custom-sep {
+    color: @bkrnd-grn;
+}
+
+#custom-wall {
+    color: @ylw;
+    
+}
+
+#custom-logout #custom-shutdown #custom-restart {
+    color: @grn;
+   
+}
+
+#clock {
+    color: @cyn;
+    
+}
+
+#battery {
+    color: @grn;
+   
+}
+
+#disk {
+    color: @grn;
+    
+}
+
+#memory {
+    color: @grn;
+   
+}
+
+#cpu {
+    color: @grn;
+    
+}
+
+#network {
+    color: @blu;
+    
+}
+
+
+#tray {
+    background-color: #2980b9;
+}
+
+#custom-wall {
+    color: @grn;
+}

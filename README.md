@@ -23,8 +23,12 @@ All you really have to do is:
   ```
   chmod +x install.sh # inside your ~/.config folder
   ```
-  4)
+  4) then just do this.
   ```
   sudo ./install.sh
   ```
+And your done! reboot your computer and it will look all nice and foresty >;)
+```
+sudo reboot now
+```
   

@@ -10,6 +10,8 @@ Hey this is my evergreen sway rice!
 
 <img width="1920" height="1080" alt="screenshot-2025-09-27_19-57-16" src="https://github.com/user-attachments/assets/6e7baefa-a8ed-4c00-b37b-c2956057b39a" />
 
+# THIS IS NOT PERFECT. YOU WILL HAVE TO CHANGE SOME DETAILS IN THE SWAY CONFIG 
+for instance, you WILL have to change swaybg where to find your wallpapers, and display stuff. it is currently set to 1920x1080@165 because THATS my monitor, please change that if its different.
 # How to install
 All you really have to do is:
   1) install the following programs:

@@ -18,8 +18,9 @@ All you really have to do is:
     rofi
     swaybg
     sway
-  2) replace the folders in your ~/.config folder with the folders/files in the repo
-  3) do a quick
+    swaync
+  3) replace the folders in your ~/.config folder with the folders/files in the repo
+  4) do a quick
   ```
   chmod +x install.sh # inside your ~/.config folder
   ```

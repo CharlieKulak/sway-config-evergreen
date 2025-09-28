@@ -23,4 +23,8 @@ All you really have to do is:
   ```
   chmod +x install.sh # inside your ~/.config folder
   ```
+  4)
+  ```
+  sudo ./install.sh
+  ```
   

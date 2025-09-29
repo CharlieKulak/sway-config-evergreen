@@ -29,7 +29,7 @@ All you really have to do is:
   ```
   chmod +x install.sh # inside your ~/.config folder
   ```
-  4) then just do this.
+  4) then just do this. Again, this script is not perfect, it only does simple stuff. I can not write bash for my life.
   ```
   sudo ./install.sh
   ```
